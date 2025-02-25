@@ -29,6 +29,7 @@ public class LacosDeRepeticao {
             System.out.println("Numero em for " + i);
         }
 
+        //redução do código
 
         scanner.close();
     }
