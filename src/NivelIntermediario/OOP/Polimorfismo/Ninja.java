@@ -1,10 +1,21 @@
 package NivelIntermediario.OOP.Polimorfismo;
 
+//superclasse -> é chamada por outras classes
 public abstract class Ninja implements EstrategiaDeBatalha{
 
     String nome;
     int aldeia;
     int idade;
+
+    // em superclasses se trabalha com a instancia em subclasses
+    public Ninja(String nome, int aldeia, int idade) {
+        this.nome = nome;
+        this.aldeia = aldeia;
+        this.idade = idade;
+    }
+
+    public Ninja() {
+    }
 
     //metodo geral
     public void habilidadeEspecial() {
