@@ -4,13 +4,14 @@ public class main {
     public static void main(String[] args) {
 
         //objeto 1
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto";
         Naruto.idade = 19;
         Naruto.aldeia = "Folha";
+        Naruto.ModoSabioAtivado();
 
         //objeto 2
-        Ninja Sasuke = new Ninja();
+        Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.idade = 19;
         Sasuke.aldeia = "Folha";
