@@ -2,8 +2,12 @@ package NivelIntermediario.OOP.Polimorfismo;
 
 public class Uchiha extends Ninja{
 
+    //importante para mencionar o "new Uchiha()" sem argumentos na main
+    public Uchiha() {
+    }
+
     //palavra reservada "super", para referenciar a classe Ninja
-    public Uchiha(String nome, int aldeia, int idade) {
+    public Uchiha(String nome, String aldeia, int idade) {
         super(nome, aldeia, idade);
     }
 

@@ -18,6 +18,8 @@ public class Main {
         sasuke.estrategiaDeBatalhaNinja();
 
         //obj2 Uchiha
-        Uchiha itachi = new Uchiha();
+        Uchiha itachi = new Uchiha("Itachi Uchiha", "Folha", 28);
+        itachi.habilidadeEspecial();
+        itachi.estrategiaDeBatalhaNinja();
     }
 }

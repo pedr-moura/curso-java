@@ -4,11 +4,11 @@ package NivelIntermediario.OOP.Polimorfismo;
 public abstract class Ninja implements EstrategiaDeBatalha{
 
     String nome;
-    int aldeia;
+    String aldeia;
     int idade;
 
     // em superclasses se trabalha com a instancia em subclasses
-    public Ninja(String nome, int aldeia, int idade) {
+    public Ninja(String nome, String aldeia, int idade) {
         this.nome = nome;
         this.aldeia = aldeia;
         this.idade = idade;
