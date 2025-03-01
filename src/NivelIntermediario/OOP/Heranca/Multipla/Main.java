@@ -12,5 +12,7 @@ public class Main {
         Hatake kakashi = new Hatake();
         kakashi.nome = "Kakashi Hatake";
         kakashi.aldeia = "Folha";
+        kakashi.boasVindas();
+        kakashi.sharinganAtivado();
     }
 }
