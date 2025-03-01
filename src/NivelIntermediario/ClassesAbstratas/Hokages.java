@@ -13,7 +13,8 @@ public abstract class Hokages {
     double saldoBancario;
     double altura;
 
-
+    //metodos abstrados não podem ter corpo
+    public abstract void sabedoriaHokage();
 
     public Hokages(){
         //contrutor vazio, sem argumentos
