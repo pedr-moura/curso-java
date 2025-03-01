@@ -11,6 +11,7 @@ public abstract class Ninja implements EstrategiaDeBatalha{
         System.out.println("Meu nome é: " + nome + " e esse é meu ataque especial");
     }
 
+    //sobreescrevendo o metodo da interface
     @Override
     public void estrategiaDeBatalhaNinja() {
         System.out.println("Essa é minha estrategia de combate");

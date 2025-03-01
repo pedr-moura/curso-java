@@ -8,11 +8,14 @@ public class Main {
         naruto.nome = "Naruto";
         naruto.idade = 12;
         naruto.habilidadeEspecial();
+        naruto.estrategiaDeBatalhaNinja();
 
         //obj uchiha
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke";
         sasuke.idade = 14;
         sasuke.habilidadeEspecial();
+        sasuke.estrategiaDeBatalhaNinja();
+
     }
 }
