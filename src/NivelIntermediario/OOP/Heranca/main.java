@@ -30,5 +30,13 @@ public class main {
         Hinata.idade = 19;
         Hinata.aldeia = "Folha";
         Hinata.PoderzinhoAtivado();
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto";
+        Boruto.idade = 12;
+        Boruto.aldeia = "Folha";
+        Boruto.AtivarKarma();
+        Boruto.AtivarJougan();
+        Boruto.ModoSabioAtivado();
     }
 }
