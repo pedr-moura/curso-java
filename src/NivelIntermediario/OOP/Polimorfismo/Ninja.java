@@ -1,6 +1,6 @@
 package NivelIntermediario.OOP.Polimorfismo;
 
-public class Ninja {
+public abstract class Ninja {
 
     String nome;
     int aldeia;
@@ -10,4 +10,7 @@ public class Ninja {
     public void habilidadeEspecial() {
         System.out.println("Meu nome é: " + nome + " e esse é meu ataque especial");
     }
+
+    //metodo abstrato = obrigatorio
+    public abstract void estrategiaDeBatalhaNinja();
 }
