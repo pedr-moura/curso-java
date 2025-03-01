@@ -24,4 +24,9 @@ public class Ninja {
         return idadeMinimaParaSerHokage - idade;
     }
 
+
+    //Orientação a objeto:
+    //Herança -> classes dentro de classes
+    //Polimorfismo -> reutilizar codigo
+    //Encapsulamento -> privar classes, e deixar publica apenas o transito de dados
 }
