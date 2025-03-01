@@ -20,6 +20,8 @@ public class main {
 
         //aplicando metodos aos objetos
         Sasuke.SharinganAtivado();
+        String chamandoMetodo = Sasuke.euSouUmNinja();
+        System.out.println(chamandoMetodo);
 
         Ninja Sakura = new Ninja();
         Sakura.nome = "Sakura";
