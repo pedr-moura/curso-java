@@ -23,6 +23,9 @@ public class main {
         String chamandoMetodo = Sasuke.euSouUmNinja();
         System.out.println(chamandoMetodo);
 
+        int quantoTempoFalta = Sasuke.anosParaHokage(50);
+        System.out.println("Voce tem: " + Sasuke.idade + " então falta no minimo: " + quantoTempoFalta + " anos para se tornar Hokage.");
+
         Ninja Sakura = new Ninja();
         Sakura.nome = "Sakura";
         Sakura.idade = 19;

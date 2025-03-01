@@ -18,4 +18,10 @@ public class Ninja {
         return "Oi, eu sou um ninja.";
     }
 
+    //fazendo uma continha
+    public int anosParaHokage(int idadeMinimaParaSerHokage) {
+
+        return idadeMinimaParaSerHokage - idade;
+    }
+
 }
