@@ -11,6 +11,11 @@ public class Uchiha extends Ninja {
         super(nome, aldeia, idade);
     }
 
+    //adicionando novos atributos na subclasse
+    public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+    }
+
     public void estrategiaDeBatalhaNinja(){
         System.out.println("Essa é minha estrategia de batalha.");
     }
