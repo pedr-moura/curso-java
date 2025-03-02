@@ -24,6 +24,17 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         this.idade = idade;
     }
 
+    //TODO: Sobrecarga do construtor chamando novos atributos
+
+    //Sobrecarga de metodos> declara apenas os novos atributos
+    public Ninja(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        //referenciar contrutor anterior para evitar acumulo de codigo
+        this(nome, aldeia, idade);
+
+        this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
+        this.rank = rank;
+    }
+
     public Ninja() {
     }
 
