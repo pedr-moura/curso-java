@@ -10,6 +10,9 @@ public class Main {
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
 
+        //pegando criterios pelo ENUM:
+        naruto.rank = NivelNinja.GENIN;
+
         //obj uchiha
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke";

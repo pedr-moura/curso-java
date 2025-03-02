@@ -3,9 +3,19 @@ package NivelIntermediario.Overload;
 //superclasse -> é chamada por outras classes
 public abstract class Ninja implements EstrategiaDeBatalha {
 
+    //TODO: Incluir dois novos atributos (numeroDeMissoesConcluidas, Rank)
+    //TODO: Rank: Gennin, Chunnin, Jounnin, Hokage
+
     String nome;
     String aldeia;
     int idade;
+
+    int numeroDeMissoesConcluidas;
+
+    //ACESSAR ENUM
+    NivelNinja rank;
+
+
 
     // em superclasses se trabalha com a instancia em subclasses
     public Ninja(String nome, String aldeia, int idade) {
