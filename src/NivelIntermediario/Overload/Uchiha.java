@@ -19,4 +19,9 @@ public class Uchiha extends Ninja {
     public void estrategiaDeBatalhaNinja(){
         System.out.println("Essa é minha estrategia de batalha.");
     }
+
+    @Override
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é: " + nome + " e essa é a minha habilidade, já completei: " +numeroDeMissoesConcluidas+ " missoes.");
+    }
 }

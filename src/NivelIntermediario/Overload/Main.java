@@ -24,5 +24,11 @@ public class Main {
         Uchiha itachi = new Uchiha("Itachi Uchiha", "Folha", 28);
         itachi.habilidadeEspecial();
         itachi.estrategiaDeBatalhaNinja();
+
+        //obj3 Uchiha
+        //adicao da variavel declarada no Enum dentro do metodo
+        Uchiha madara = new Uchiha("Madara Uchiha", "Aldeia da folha", 45, 900, NivelNinja.KAGE);
+        madara.habilidadeEspecial();
+        madara.estrategiaDeBatalhaNinja();
     }
 }
